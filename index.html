@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Lotus Employee Portal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #090708;
+      color: #f5d6dc;
+      text-align: center;
+    }
+
+    .hero {
+      min-height: 100vh;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background:
+        radial-gradient(circle at top, rgba(200,119,137,.25), transparent 35%),
+        linear-gradient(135deg, #090708, #131012);
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 8vw, 5rem);
+      letter-spacing: .18em;
+      color: #f5b4c8;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: normal;
+      letter-spacing: .25em;
+      color: #c87789;
+      margin-bottom: 30px;
+    }
+
+    p {
+      max-width: 720px;
+      margin: 0 auto 30px;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .button-grid {
+      display: grid;
+      gap: 16px;
+      max-width: 900px;
+      margin: 30px auto;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    a {
+      color: #f5d6dc;
+      text-decoration: none;
+    }
+
+    .card {
+      border: 1px solid rgba(245,180,200,.35);
+      padding: 22px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.04);
+      box-shadow: 0 0 30px rgba(200,119,137,.12);
+      transition: .3s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #f5b4c8;
+      box-shadow: 0 0 35px rgba(245,180,200,.25);
+    }
+
+    footer {
+      padding: 25px;
+      border-top: 1px solid rgba(245,180,200,.25);
+      color: #c87789;
+      font-size: .9rem;
+      letter-spacing: .12em;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>EMPLOYEE PORTAL</h1>
+    <h2>BLACK LOTUS BRANDING</h2>
+
+    <p>
+      Welcome to the official Black Lotus Branding Employee Portal.
+      This hub gives Scouts access to onboarding, training, downloads,
+      Google Workspace tools, company resources, and daily work support.
+    </p>
+
+    <div class="button-grid">
+      <a class="card" href="https://docs.google.com/forms/d/e/1FAIpQLScbSUoG8-hO7GF1Ygovp29cdQ3aF4v3-wTmXDH4YJoK9VzP8A/viewform?usp=header" target="_blank">
+        📝 Start Onboarding
+      </a>
+
+      <a class="card" href="https://drive.google.com/drive/folders/1s2lvrB_JdyrwVwvzcQqMZ5de0LPWZpFR?usp=drive_link" target="_blank">
+        📁 Shared Drive
+      </a>
+
+      <a class="card" href="https://calendar.google.com/calendar/u/0/r/week/2026/6/30?pli=1" target="_blank">
+        📅 Company Calendar
+      </a>
+
+      <a class="card" href="https://meet.google.com/landing?pli=1" target="_blank">
+        🎥 Google Meet
+      </a>
+
+      <a class="card" href="mailto:blacklotusbranding@gmail.com">
+        📧 Email Management
+      </a>
+
+      <a class="card" href="https://docs.google.com/spreadsheets/d/1HDA3WG4tmjiDcsqlYRXlAgLMZI3XBTNBDh4z8sjTpkc/edit?usp=sharing" target="_blank">
+        📋 Daily Work Log
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 BLACK LOTUS BRANDING · DESIGNED WITH PURPOSE · CREATED WITH PASSION
+  </footer>
+
+</body>
+</html>
